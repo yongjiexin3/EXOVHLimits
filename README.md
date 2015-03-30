@@ -18,4 +18,21 @@ In this package,
 Note:  the data and signal root files sit in other folders on cmslpc not lxplus. 
 and step (3) will need these root files to calculate the data and signal yield.
 
-This package will give you the limits of HW and HZ channel.  
+This package will give you the limits of HW and HZ channel. 
+
+
+
+Folders :
+
+datacards is the one having all the datacards for each specific channel in their low purity, and in their high purity
+
+datacardsAll is the one having the datacards for HZ and HW, (combining all the relevant channels)
+
+datacardsCom is the one for HbbWqq, HbbZqq, HwwWqq, HwwZqq,....  those specific channels, but combining
+the low purity and high purity 
+
+HbbVqqHwwworkspaces having the work space for HbbVqq passing Hww categories.
+
+workspaces having the work space for the rest channels. 
+
+Limits folder is the one having tools for making limit plots
