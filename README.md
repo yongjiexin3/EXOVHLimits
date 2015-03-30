@@ -11,9 +11,11 @@ In this package,
 (3) ./runR2J.sh will generate the data cards.   
     (3a) the C file for this is  R2JJFitterHV.C
 
-(4) ./combine.sh will combine specific datacards together and put the resulting combined datacards in datacarsCom folder
+(4) ./combine.sh will combine specific datacards together and put the resulting combined datacards in datacardsAll folder
 
 (5) ./run.sh will generate the limits. 
 
-Note:  the data and signal root files sits in other folder on cmslpc not lxplus. 
-and step (3) will need these root files to calculate the data and signal yield. 
+Note:  the data and signal root files sit in other folders on cmslpc not lxplus. 
+and step (3) will need these root files to calculate the data and signal yield.
+
+This package will give you the limits of HW and HZ channel.  
