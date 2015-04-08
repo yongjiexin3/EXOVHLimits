@@ -1,4 +1,13 @@
 # EXOVHLimits
+workspace and datacards created with CMSSW_7_1_5
+There are two folders in this package.
+HZHW is the one to calculate the limit of HZ and HW respectively. 
+HV is the one combining HW and HZ together, viewing them as 
+the same signals.  
+The key difference of the HV and HZHW folder is 
+the R2JJFitterHV.C file, which is used as workspace and 
+datacards generator.  
+
 
 This is the package to calculate the limits for Analysis EXO-14-009,  X -> HV, H->bb , V -> qq
 Or X->HV,  H->WW->qqqq,  V-> qq
@@ -35,4 +44,4 @@ HbbVqqHwwworkspaces having the work space for HbbVqq passing Hww categories.
 
 workspaces having the work space for the rest channels. 
 
-Limits folder is the one having tools for making limit plots
+Limits folder is the one having tools, which is brazillianFlagHV.py for making limit plots
